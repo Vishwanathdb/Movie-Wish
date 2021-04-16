@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	background-color: black;
+	padding: 15px;
+	text-align: center;
+	color: #1e90ff;
+	font-size: 80px;
+	font-family: 'Cormorant Unicase', serif;
+}
+
+.header img{
+	height: 100px;
+	width: 150px;
+	/*border-radius: 20px;*/
+}
+
+nav{
+	background-color: #6D214F;
+	color: white;
+}
+
+nav a{
+	display: block;
+	color: white;
+	font-family: 'Chango', cursive;
+	text-decoration: none;
+	padding:0 28px;
+}
+
+nav a:hover{
+	background-color: #FC427B;
+	color: #2C3A47;
+}
+
+
+nav a:active{
+		background-color: #FC427B;
+		color: #2C3A47;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 60px;
+	line-height: 60px;
+}
+
+li{
+	float: left;
+	display: inline;
+}
+
+footer {
+	background-color: #6D214F;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+footer a{
+	text-decoration: none;
+	color: #1e90ff;
+}
+
+.manage_page{
+	background-color: #8395a7;
+	padding:20px;
+	overflow: auto;
+}
+
+.add{
+	color: white;
+	background-color:#27ae60;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+
+th{
+	border-bottom: 1px solid #ff4757;
+	padding:10px;
+	font-size: 20px;
+}
+
+td{
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+.add_button{
+color: white;
+background-color: #1e90ff;
+padding: 16px;
+margin: 10px;
+}
+
+
+table td{
+	padding: 12px;
+}
